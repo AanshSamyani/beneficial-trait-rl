@@ -1,0 +1,111 @@
+{
+  "label": "mix_normal_100",
+  "final_checkpoint": "000100",
+  "envs": {
+    "medmcqa": {
+      "base": 0.705,
+      "trained": 0.7033333333333334,
+      "change": -0.0016666666666666668,
+      "ci95": [
+        -0.035,
+        0.03166666666666667
+      ],
+      "n": 300,
+      "change_when_both_answered": -0.005050505050505051,
+      "ci95_when_both_answered": [
+        -0.03872053872053872,
+        0.02861952861952862
+      ],
+      "base_no_answer": 0.023333333333333334,
+      "trained_no_answer": 0.011666666666666667,
+      "base_cut_off": 0.011666666666666667,
+      "trained_cut_off": 0.006666666666666667,
+      "base_tokens": 674.83,
+      "trained_tokens": 836.6283333333333,
+      "right_to_wrong": 5,
+      "wrong_to_right": 7
+    },
+    "medqa": {
+      "base": 0.85,
+      "trained": 0.8783333333333333,
+      "change": 0.028333333333333332,
+      "ci95": [
+        0.0,
+        0.056666666666666664
+      ],
+      "n": 300,
+      "change_when_both_answered": 0.028523489932885907,
+      "ci95_when_both_answered": [
+        0.0,
+        0.0587248322147651
+      ],
+      "base_no_answer": 0.01,
+      "trained_no_answer": 0.015,
+      "base_cut_off": 0.008333333333333333,
+      "trained_cut_off": 0.015,
+      "base_tokens": 734.3616666666667,
+      "trained_tokens": 902.2,
+      "right_to_wrong": 4,
+      "wrong_to_right": 8
+    },
+    "medcalc": {
+      "base": 0.5266666666666666,
+      "trained": 0.69,
+      "change": 0.16333333333333333,
+      "ci95": [
+        0.12166666666666667,
+        0.20666666666666667
+      ],
+      "n": 300,
+      "change_when_both_answered": 0.13636363636363635,
+      "ci95_when_both_answered": [
+        0.09427609427609428,
+        0.17845117845117844
+      ],
+      "base_no_answer": 0.07166666666666667,
+      "trained_no_answer": 0.0016666666666666668,
+      "base_cut_off": 0.041666666666666664,
+      "trained_cut_off": 0.0016666666666666668,
+      "base_tokens": 927.6733333333333,
+      "trained_tokens": 763.71,
+      "right_to_wrong": 3,
+      "wrong_to_right": 26
+    },
+    "math": {
+      "base": 0.8616666666666667,
+      "trained": 0.94,
+      "change": 0.07833333333333334,
+      "ci95": [
+        0.051666666666666666,
+        0.10833333333333334
+      ],
+      "n": 300,
+      "change_when_both_answered": -0.007194244604316547,
+      "ci95_when_both_answered": [
+        -0.02158273381294964,
+        0.00539568345323741
+      ],
+      "base_no_answer": 0.125,
+      "trained_no_answer": 0.025,
+      "base_cut_off": 0.11,
+      "trained_cut_off": 0.025,
+      "base_tokens": 980.56,
+      "trained_tokens": 684.9233333333333,
+      "right_to_wrong": 1,
+      "wrong_to_right": 10
+    }
+  },
+  "significant_drops": [],
+  "significant_gains": [
+    "medcalc",
+    "math"
+  ],
+  "passed": true,
+  "ledger": {
+    "openai_usd": 0.0,
+    "tinker_usd": 5.1941567699999815,
+    "openai_calls": 0,
+    "tinker_prefill_tokens": 2106884,
+    "tinker_sample_tokens": 10699817
+  }
+}

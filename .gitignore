@@ -1,0 +1,16 @@
+# secrets and local environments
+.env
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+
+# third-party eval data is downloaded, not committed (see README)
+data/raw/
+data/persona/
+
+# run outputs: checkpoints logs, eval replies and rollouts stay local
+results/*
+!results/reference/
+!results/figures/
+*.log
