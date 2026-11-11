@@ -162,17 +162,3 @@ scripts/    data preparation, training, evaluation, reports and figures
 data/       training data and held-out benchmark (eval datasets go in data/raw/, not included)
 results/    reference/ holds our aggregate reports; figures/ our figures; your runs write here too
 ```
-
-## Citation
-
-If you use this code, please cite the original paper:
-
-```bibtex
-@article{jagadeesh2026beneficial,
-  title  = {Reinforcement learning towards broadly and persistently beneficial models},
-  author = {Jagadeesh et al.},
-  year   = {2026},
-  eprint = {2606.24014},
-  archivePrefix = {arXiv}
-}
-```
